@@ -1,5 +1,5 @@
 public class Park {
-    public class Attraction {
+    public   class Attraction {
         String name;
         String workingHours;
         double price;
