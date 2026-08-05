@@ -64,7 +64,7 @@ public class MtsHomeworkTest {
                 .checkSumFieldPlaceholder("Сумма")
                 .checkEmailFieldPlaceholder("E-mail для отправки чека");
         mainPage.selectService("Услуги связи")
-                .fillFormAndSubmit("297777777", "12.22", "test@test.by")
+                .fillFormAndSubmit("297777777", "12.22", "zakovegor7@gmail.com")
                 .verifyPopupData("375297777777", "12.22");
     }
 }
